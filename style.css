@@ -1,4 +1,79 @@
+@font-face {
+    font-family: 'GrafBlok';
+    src: url("fonts/Graffiti-Blok.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'broken';
+    src: url("fonts/BROKEN15.TTF");
+}
+
 body {
-  background-color: #ff1daa;
-  background: linear-gradient(0deg, rgba(255,29,170,1) 0%, rgba(167,0,71,0) 100%);
+  background-color: #000000;
+  background-image: url("branding/itchpattern.jpg");
+  font-family: GrafBlok;
+}
+
+
+@keyframes tilt {
+  0%{
+    transform:rotate(-8deg) scale(80%);
+  }
+  90%{
+    transform:rotate(4deg) scale(115%);
+  }
+  100%{
+    transform:rotate(1deg) scale(110%);
+  }
+}
+
+#logoimg{
+  transform:rotate(-4deg) scale(100%);
+  transition: 0.05s
+}
+.splat:hover {
+/*  transform:rotate(2deg) scale(110%);
+  transition: 0.05s*/
+  animation-name:tilt;
+  animation-duration: 0.05s;
+  animation-fill-mode: forwards;
+  animation-timing-function: step-start;
+}
+
+#info{
+  color:white;
+  background-color: #000000;
+  text-align: center;
+  transform:skewX(3deg) skewY(2deg);
+}
+
+.untransform{
+  transform:skewX(-3deg) skewY(-2deg);
+}
+
+.link{
+  color:white;
+  background-color: #000000;
+  text-align: center;
+  text-decoration: none;
+  font-size:
+}
+
+.wonky{
+  transform:skewX(-3deg) skewY(-2deg);
+}
+.unwonk{
+  transform:skewX(3deg) skewY(2deg);
+}
+
+.socons{
+  text-align: left;
+}
+
+.iconless{
+  font-family: broken;
+}
+.socname{
+  display: inline;
+  font-family: GrafBlok;
 }
