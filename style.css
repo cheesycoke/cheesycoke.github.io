@@ -56,7 +56,6 @@ body {
   background-color: #000000;
   text-align: center;
   text-decoration: none;
-  font-size:
 }
 
 .wonky{
@@ -68,10 +67,16 @@ body {
 
 .socons{
   text-align: left;
+  display:inline;
 }
 
 .iconless{
   font-family: broken;
+}
+.initials{
+  display:inline-block;
+  transform:scale(125%) !important;
+  transform-origin: right;
 }
 .socname{
   display: inline;
