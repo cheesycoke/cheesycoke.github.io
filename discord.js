@@ -57,7 +57,7 @@ await lib.discord.channels['@0.3.2'].messages.create({
     {
       "type": "rich",
       "title": `cheesycoke`,
-      "description": "",
+      "description": `Art, Graphic Design, & Game Dev!`,
       "color": 0xff00ff,
       "image": {
         "url": `https://www.cheesycoke.com/branding/logo300.png`,
