@@ -87,3 +87,21 @@ body {
   font-family: GrafBlok;
   color:#FFFFFF;
 }
+
+.commOpen{
+  color:#00ff62;
+}
+.commClosed{
+  color:#ff0051;
+}
+
+.commstatusheader{
+  font-size: 8rem;
+  font-family: broken !important;
+  margin-top: -2rem !important;
+  margin-bottom: -2rem !important;
+}
+
+.commImage{
+  border: 1rem solid black;
+}
