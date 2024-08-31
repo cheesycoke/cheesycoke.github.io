@@ -10,7 +10,7 @@
 
 body {
   background-color: #000000;
-  background: url("branding/trTest.png") bottom left/contain no-repeat fixed,url("branding/itchpattern.jpg") top left/auto repeat fixed;
+  background: url("branding/trTest.png") bottom left/contain no-repeat fixed,url("branding/itchpattern.jpg") top left/auto repeat fixed #000;
 /*  background-color: #ff0084;
   background-blend-mode: hard-light;*/
   font-family: GrafBlok;
