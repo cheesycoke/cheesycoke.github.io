@@ -1,4 +1,4 @@
-var isOpenForCommissions = false;
+var isOpenForCommissions = true;
 
 function getCommissionStatus() {
     if (typeof isOpenForCommissions !== "undefined") {
